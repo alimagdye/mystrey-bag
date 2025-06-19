@@ -137,12 +137,14 @@ GET /api/v1/resturants/nearby?lat=30.0444&lng=31.2357
   "message": "resturant listed successfully",
   "data":[
       {
-        "name": "New Cairo, Fifth Settlement",
+        "name": "Pizza Town",
+        "address": "New Cairo, Fifth Settlement",
         "latitude": 30.0444,
         "longitude": 31.2357
       },
       {
         "name": "Burger World",
+        "address": "Cairo, Nasr City",
         "latitude": 50.0444,
         "longitude": 51.2357
       }
