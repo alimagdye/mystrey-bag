@@ -88,7 +88,7 @@ Database connected successfully
 ├── src
 │   ├── controllers      # Route handler logic
 │   ├── routes           # Express route definitions
-│   ├── models           # Mongoose schema/model
+│   ├── config           # Mongoose schema/model, DB connection
 │   ├── middleware       # Error handler, etc.
 │   ├── index.ts         # App entry point
 ├── .env                 # Environment config
@@ -121,7 +121,7 @@ By sending the user's **latitude and longitude** as query parameters, the API re
 ####  Example Endpoint:
 
 ```
-GET /api/v1/resturants/nearby?lat=30.0444&lng=31.2357
+GET /api/v1/resturants?latitude=30.0444&longitude=31.2357
 ```
 
 ####  How It Works:
