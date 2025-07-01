@@ -20,7 +20,7 @@ const listResturants = async function (req, res) {
         (a, b) =>
           calculateDistance(latitude, longitude, a.latitude, a.longitude) -
           calculateDistance(latitude, longitude, b.latitude, b.longitude)
-      ), // sort by distance between the school and the user distance, ascending order
+      ), // sort by distance between the restaurant and the user distance, ascending order
     });
   } catch (error) {
     console.error("error listing resturant:", error);
