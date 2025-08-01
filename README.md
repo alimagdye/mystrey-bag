@@ -1,5 +1,5 @@
-# 🎒 Mystrey Bag API
-An API for managing restaurants — including creating, updating, deleting, and listing them — with a feature to sort restaurants from the closest to the farthest based on the user's location using latitude and longitude.
+# 🎒 Resturant API
+An API for application manages restaurants — including creating, updating, deleting, and listing them — with a feature to sort restaurants from the closest to the farthest based on the user's location using latitude and longitude.
 --
 
 ---
